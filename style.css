@@ -50,9 +50,9 @@
 }
 /*navbar*/
 .navbar{
+    display: none;
     background-color: #2f4f7f;
     height: 20vh;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -86,11 +86,63 @@
     align-items: center;
 }
 #navcityinput{
-    width: 50vb;
+    width: 20vw;
     height: 50px;
     border-radius: 30px;
     font-size: 20px;
     border: none;
     outline: none;
     background-color: rgba(255, 255, 255, 0.593);
+    padding-left: 30px;
+    
+}
+#navcityinput::placeholder{
+    padding-left: 30px;
+}
+#navsearchbtn{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+}
+/*weather result*/
+.weatherResult {
+    width: 80%;
+    max-width: 600px;
+    padding-top: 30px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    animation: fadeIn 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+
+.app{
+    background-image: url('https://i.pinimg.com/736x/2e/24/23/2e2423dab7754953412668bcc74bde02.jpg'); /* replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
