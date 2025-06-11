@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*landing*/
+.landing{
+    background-image: url('https://i.pinimg.com/736x/1b/70/61/1b7061e57ff4edde0b2d1628e508b6c4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.logo{
+    height: 40vh;
+    border-radius: 30%;
+}
+.desc{
+    width: 100vb;
+    font-size: 20px;
+    color: white;
+}
+#cityinput{
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.593);
+}
+#searchbtn{
+    width: 10%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(229, 232, 235, 0.926);
+    cursor: pointer;
+}
+/*navbar*/
+.navbar{
+    background-color: #2f4f7f;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.navlogo{
+    height: 11vh;
+    border-radius: 50%;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+.navtitle{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+.navtitle:hover{
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#navcityinput{
+    width: 50vb;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.593);
+}
