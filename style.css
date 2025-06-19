@@ -6,7 +6,7 @@
 }
 /*landing*/
 .landing{
-    background-image: url('https://i.pinimg.com/736x/1b/70/61/1b7061e57ff4edde0b2d1628e508b6c4.jpg');
+    background-image: url('pexels-pixabay-531880.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,13 +19,15 @@
     gap: 40px;
 }
 .logo{
-    height: 40vh;
-    border-radius: 30%;
+    height: 30vh;
+    border-radius: 50%;
 }
 .desc{
     width: 100vb;
-    font-size: 20px;
-    color: white;
+    font-size: 30px;
+    color: rgb(240, 242, 245);
+    font-weight: 600;
+    text-align: center;
 }
 #cityinput{
     width: 50%;
@@ -39,19 +41,21 @@
 }
 #searchbtn{
     width: 10%;
-    height: 40px;
-    border-radius: 20px;
+    height: 50px;
+    border-radius: 30px;
     padding: 0 20px;
     font-size: 20px;
     border: none;
     outline: none;
-    background-color: rgba(229, 232, 235, 0.926);
     cursor: pointer;
+    background-color: rgb(36, 65, 85);
+    color: white;
+    font-weight: 500;
 }
 /*navbar*/
 .navbar{
     display: none;
-    background-color: #2f4f7f;
+    background-color: #315f43f4;
     height: 20vh;
     flex-direction: row;
     justify-content: space-between;
@@ -59,7 +63,7 @@
     padding: 0 50px;
 }
 .navlogo{
-    height: 11vh;
+    height: 13vh;
     border-radius: 50%;
 }
 .left{
@@ -108,8 +112,9 @@
 }
 /*weather result*/
 .weatherResult {
+    height: 50vh;
     width: 80%;
-    max-width: 600px;
+    max-width: 400px;
     padding-top: 30px;
     margin: 40px auto;
     padding: 30px;
@@ -119,16 +124,20 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.18);
-    color: #ffffff;
+    color: #215583;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
     animation: fadeIn 0.5s ease-in-out;
     overflow: hidden;
 }
 
 
 .app{
-    background-image: url('https://i.pinimg.com/736x/2e/24/23/2e2423dab7754953412668bcc74bde02.jpg'); /* replace with your background image */
+    background-image: url('pexels-pixabay-531880.jpg'); /* replace with your background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
